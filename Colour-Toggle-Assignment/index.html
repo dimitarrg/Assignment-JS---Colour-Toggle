@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colour Toggle</title>
+    <script defer src="script.js"></script>
+    <style>
+      @import "/styles.css";
+    </style>
+  </head>
+
+  <!-- onclick="toggleMenu()" -->
+
+  <body id="body" class="background-color">
+    <nav class="toggle-menu">
+      <div
+        class="color-toggle-btn"
+        onmouseover="toggleMenu()"
+        onmouseout="mouseOut()"
+      ></div>
+      <ul>
+        <li>
+          <button class="home-btn" id="home-btn">
+            <input type="radio" name="colour" value="home" id="home" /><label
+              for="home"
+              >Home</label
+            >
+          </button>
+        </li>
+        <li>
+          <button class="li-blue" id="blue-btn">
+            <input type="radio" name="colour" value="blue" id="blue" /><label
+              for="blue"
+              >Blue</label
+            >
+          </button>
+        </li>
+        <li>
+          <button class="li-green" id="green-btn">
+            <input type="radio" name="colour" value="green" id="green" /><label
+              for="green"
+              >Green</label
+            >
+          </button>
+        </li>
+        <li>
+          <button class="li-beige" id="beige-btn">
+            <input type="radio" name="colour" value="beige" id="beige" /><label
+              for="beige"
+              >Beige</label
+            >
+          </button>
+        </li>
+        <li>
+          <button class="li-coral" id="coral-btn">
+            <input type="radio" name="colour" value="coral" id="coral" /><label
+              for="coral"
+              >Coral</label
+            >
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

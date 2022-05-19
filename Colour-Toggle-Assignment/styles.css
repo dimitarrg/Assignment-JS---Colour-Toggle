@@ -1,0 +1,72 @@
+.background-color {
+  background-color: lightslategray;
+}
+
+nav {
+  width: 60px;
+  z-index: 1000;
+  position: fixed;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.color-toggle-btn {
+  height: 60px;
+  width: 60px;
+  background-image: url(hamburger_menu.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.color-toggle-btn:hover {
+  opacity: 0.6;
+}
+
+.toggle-menu {
+  display: block;
+  width: 60px;
+  z-index: 1000;
+  position: fixed;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-menu ul {
+  padding-top: 10px;
+  padding-left: 0;
+  list-style: none;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.toggle-menu ul li {
+  line-height: 40px;
+  list-style: none;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+}
+
+.home-btn {
+  background-color: lightslategrey;
+}
+
+.li-blue {
+  background-color: lightskyblue;
+}
+
+.li-green {
+  background-color: greenyellow;
+}
+
+.li-beige {
+  background-color: beige;
+}
+
+.li-coral {
+  background-color: coral;
+}
+/*# sourceMappingURL=styles.css.map */
